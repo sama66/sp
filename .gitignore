@@ -29,8 +29,10 @@ install.php
 update.php
 xmlrpc.php
 /includes
+/core
 /misc
 /modules
 /profiles
 /scripts
-/themes
+*/**/images
+*/**/css

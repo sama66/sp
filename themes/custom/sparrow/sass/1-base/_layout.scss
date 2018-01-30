@@ -1,0 +1,44 @@
+.layout-container {
+  width: 1080px;
+  max-width: 99%;
+  margin: 0 auto;
+  //position: relative;
+  //background: lightgrey;
+}
+
+main {
+  //background: shade($dbug, 10%);
+  margin: $space 0;
+  @include clearfix;
+}
+
+.highlighted {
+  background: tint($dbug, 70%);
+  //@include clearfix;
+}
+
+.layout-content {
+  width: 70%;
+  float: left;
+  //background: tint($dbug, 20%);
+}
+
+#block-sparrow-content {
+  img {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.layout-sidebar-first {
+  width: 28%;
+  margin-left: $space;
+  float: left;
+  //background: tint($dbug, 30%);
+}
+
+// .layout-sidebar-second {
+//   width: 20%;
+//   float: left;
+//   background: tint($dbug, 10%);
+// }

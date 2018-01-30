@@ -1,0 +1,43 @@
+body {
+  background: $site-bg;
+  height: auto;
+  //font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+#block-sparrow-page-title {
+  display: none;
+}
+
+h1.pagetitle {
+  font-size: $large-font;
+}
+
+#block-sparrow-local-tasks {
+  border-bottom: thin solid black;
+  margin-bottom: $space;
+  ul li {
+    display: inline-block;
+    margin-right: $space/4;
+    a {
+      padding: $space/3 $space*3;
+      background: white;
+      &.is-active {
+        background: none;
+      }
+    }
+  }
+}
+
+div[role=contentinfo] {
+  background: $dbug;
+  @include padding(1em);
+  @include margin(1em 0);
+}
+
+::selection {
+  background: $selection;
+}

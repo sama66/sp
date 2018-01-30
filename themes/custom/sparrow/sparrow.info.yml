@@ -1,0 +1,20 @@
+name: Sparrow
+description: Drupal 8 base theme by Sanjay Maharishi
+type: theme
+core: 8.x
+screenshot:  images/sparrow.jpg
+
+libraries:
+  - sparrow/global-css
+  - sparrow/global-js
+
+regions:
+  header: 'Header'
+  nav: 'Main menu'
+  highlighted: 'Highlighted'
+  messages: 'Messages'
+  content: 'Main content'
+  page_title: 'Page title'
+  sidebar_first: 'Sidebar 1'
+  sidebar_second: 'Sidebar 2'
+  footer: 'Footer'
