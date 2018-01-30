@@ -1,2 +1,2 @@
-# sankt project
-project for sanket drupal site
+# Sanket Project
+project for sanket D8 site
